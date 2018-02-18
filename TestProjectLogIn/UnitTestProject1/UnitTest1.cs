@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Threading;
+using System.Collections.Generic;
 using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
@@ -26,9 +27,12 @@ namespace UnitTestProject1
         {
             String log_pass = "admin";
             Random r = new Random();
+            int count_sections = 0;
+            int count_presections = 0;
+           // List<IWebElement> sections = new List<IWebElement>;
 
             driver.Url = "http://localhost/litecart/en/";
-
+          
             driver.FindElement(By.Name("email")).SendKeys(log_pass);
             Thread.Sleep(r.Next(1500, 3000)); //рандомная пауза для эмуляции поведения пользователя
 
@@ -37,6 +41,14 @@ namespace UnitTestProject1
 
             driver.FindElement(By.Name("login")).Click();
             Thread.Sleep(r.Next(1500, 3000)); //рандомная пауза для эмуляции поведения пользователя
+
+            List<WebElement> sections = new List<WebElement>();
+            sections = driver.FindElements(By.Id("app-"));
+            // Console.WriteLine(sections.ToString());
+            driver.FindElement(By.Id("app-")).Click();
+            Thread.Sleep(r.Next(1500, 3000)); //рандомная пауза для эмуляции поведения пользователя
+
+
         }
 
         [TearDown]
