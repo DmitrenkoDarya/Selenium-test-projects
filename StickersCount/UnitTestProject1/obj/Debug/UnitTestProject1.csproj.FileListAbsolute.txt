@@ -1,0 +1,66 @@
+C:\Users\Armstrong\source\repos\UnitTestProject1\UnitTestProject1\obj\Debug\UnitTestProject1.csprojResolveAssemblyReference.cache
+C:\Users\Armstrong\source\repos\UnitTestProject1\UnitTestProject1\obj\Debug\UnitTestProject1.csproj.CoreCompileInputs.cache
+C:\Users\Armstrong\source\repos\UnitTestProject1\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Armstrong\source\repos\UnitTestProject1\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Armstrong\source\repos\UnitTestProject1\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Armstrong\source\repos\UnitTestProject1\UnitTestProject1\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+C:\Users\Armstrong\source\repos\UnitTestProject1\UnitTestProject1\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+C:\Users\Armstrong\source\repos\UnitTestProject1\UnitTestProject1\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\Users\Armstrong\source\repos\UnitTestProject1\UnitTestProject1\bin\Debug\UnitTestProject1.dll
+C:\Users\Armstrong\source\repos\UnitTestProject1\UnitTestProject1\bin\Debug\UnitTestProject1.pdb
+C:\Users\Armstrong\source\repos\UnitTestProject1\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\Armstrong\source\repos\UnitTestProject1\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\Armstrong\source\repos\UnitTestProject1\UnitTestProject1\bin\Debug\nunit.framework.dll
+C:\Users\Armstrong\source\repos\UnitTestProject1\UnitTestProject1\bin\Debug\WebDriver.dll
+C:\Users\Armstrong\source\repos\UnitTestProject1\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\Armstrong\source\repos\UnitTestProject1\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\Armstrong\source\repos\UnitTestProject1\UnitTestProject1\bin\Debug\nunit.framework.xml
+C:\Users\Armstrong\source\repos\UnitTestProject1\UnitTestProject1\bin\Debug\WebDriver.xml
+C:\Users\Armstrong\source\repos\UnitTestProject1\UnitTestProject1\obj\Debug\UnitTestProject1.dll
+C:\Users\Armstrong\source\repos\UnitTestProject1\UnitTestProject1\obj\Debug\UnitTestProject1.pdb
+C:\Users\Armstrong\source\repos\UnitTestProject1\UnitTestProject1\bin\Debug\WebDriver.Support.dll
+C:\Users\Armstrong\source\repos\UnitTestProject1\UnitTestProject1\bin\Debug\WebDriver.Support.xml
+C:\Users\Armstrong\source\repos\UnitTestProject1 - копия\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Armstrong\source\repos\UnitTestProject1 - копия\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Armstrong\source\repos\UnitTestProject1 - копия\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Armstrong\source\repos\UnitTestProject1 - копия\UnitTestProject1\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+C:\Users\Armstrong\source\repos\UnitTestProject1 - копия\UnitTestProject1\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+C:\Users\Armstrong\source\repos\UnitTestProject1 - копия\UnitTestProject1\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\Users\Armstrong\source\repos\UnitTestProject1 - копия\UnitTestProject1\bin\Debug\UnitTestProject1.dll
+C:\Users\Armstrong\source\repos\UnitTestProject1 - копия\UnitTestProject1\bin\Debug\UnitTestProject1.pdb
+C:\Users\Armstrong\source\repos\UnitTestProject1 - копия\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\Armstrong\source\repos\UnitTestProject1 - копия\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\Armstrong\source\repos\UnitTestProject1 - копия\UnitTestProject1\bin\Debug\nunit.framework.dll
+C:\Users\Armstrong\source\repos\UnitTestProject1 - копия\UnitTestProject1\bin\Debug\WebDriver.dll
+C:\Users\Armstrong\source\repos\UnitTestProject1 - копия\UnitTestProject1\bin\Debug\WebDriver.Support.dll
+C:\Users\Armstrong\source\repos\UnitTestProject1 - копия\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\Armstrong\source\repos\UnitTestProject1 - копия\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\Armstrong\source\repos\UnitTestProject1 - копия\UnitTestProject1\bin\Debug\nunit.framework.xml
+C:\Users\Armstrong\source\repos\UnitTestProject1 - копия\UnitTestProject1\bin\Debug\WebDriver.xml
+C:\Users\Armstrong\source\repos\UnitTestProject1 - копия\UnitTestProject1\bin\Debug\WebDriver.Support.xml
+C:\Users\Armstrong\source\repos\UnitTestProject1 - копия\UnitTestProject1\obj\Debug\UnitTestProject1.csprojResolveAssemblyReference.cache
+C:\Users\Armstrong\source\repos\UnitTestProject1 - копия\UnitTestProject1\obj\Debug\UnitTestProject1.csproj.CoreCompileInputs.cache
+C:\Users\Armstrong\source\repos\UnitTestProject1 - копия\UnitTestProject1\obj\Debug\UnitTestProject1.dll
+C:\Users\Armstrong\source\repos\UnitTestProject1 - копия\UnitTestProject1\obj\Debug\UnitTestProject1.pdb
+C:\Users\Armstrong\source\repos\UnitTestProject1 - копия - копия\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Armstrong\source\repos\UnitTestProject1 - копия - копия\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Armstrong\source\repos\UnitTestProject1 - копия - копия\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Armstrong\source\repos\UnitTestProject1 - копия - копия\UnitTestProject1\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+C:\Users\Armstrong\source\repos\UnitTestProject1 - копия - копия\UnitTestProject1\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+C:\Users\Armstrong\source\repos\UnitTestProject1 - копия - копия\UnitTestProject1\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\Users\Armstrong\source\repos\UnitTestProject1 - копия - копия\UnitTestProject1\bin\Debug\UnitTestProject1.dll
+C:\Users\Armstrong\source\repos\UnitTestProject1 - копия - копия\UnitTestProject1\bin\Debug\UnitTestProject1.pdb
+C:\Users\Armstrong\source\repos\UnitTestProject1 - копия - копия\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\Armstrong\source\repos\UnitTestProject1 - копия - копия\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\Armstrong\source\repos\UnitTestProject1 - копия - копия\UnitTestProject1\bin\Debug\nunit.framework.dll
+C:\Users\Armstrong\source\repos\UnitTestProject1 - копия - копия\UnitTestProject1\bin\Debug\WebDriver.dll
+C:\Users\Armstrong\source\repos\UnitTestProject1 - копия - копия\UnitTestProject1\bin\Debug\WebDriver.Support.dll
+C:\Users\Armstrong\source\repos\UnitTestProject1 - копия - копия\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\Armstrong\source\repos\UnitTestProject1 - копия - копия\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\Armstrong\source\repos\UnitTestProject1 - копия - копия\UnitTestProject1\bin\Debug\nunit.framework.xml
+C:\Users\Armstrong\source\repos\UnitTestProject1 - копия - копия\UnitTestProject1\bin\Debug\WebDriver.xml
+C:\Users\Armstrong\source\repos\UnitTestProject1 - копия - копия\UnitTestProject1\bin\Debug\WebDriver.Support.xml
+C:\Users\Armstrong\source\repos\UnitTestProject1 - копия - копия\UnitTestProject1\obj\Debug\UnitTestProject1.csprojResolveAssemblyReference.cache
+C:\Users\Armstrong\source\repos\UnitTestProject1 - копия - копия\UnitTestProject1\obj\Debug\UnitTestProject1.csproj.CoreCompileInputs.cache
+C:\Users\Armstrong\source\repos\UnitTestProject1 - копия - копия\UnitTestProject1\obj\Debug\UnitTestProject1.dll
+C:\Users\Armstrong\source\repos\UnitTestProject1 - копия - копия\UnitTestProject1\obj\Debug\UnitTestProject1.pdb
