@@ -177,6 +177,18 @@ namespace UnitTestProject1
             {
                 WriteIntoFile("Не удалось Войти", path);
             }
+
+            //выйти
+            try
+            {
+                driver.FindElement(By.CssSelector("a[href$= logout]")).Click();
+                Thread.Sleep(rand.Next(1200, 1500));
+                WriteIntoFile("--- Logout ---", path);
+            }
+            catch (NoSuchElementException ex)
+            {
+                WriteIntoFile("Не удалось нажать на кнопку Logout", path);
+            }
         }
 
         [TearDown]
