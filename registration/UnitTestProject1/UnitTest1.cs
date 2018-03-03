@@ -59,7 +59,7 @@ namespace UnitTestProject1
             string phone = "+1" + rand.Next(100000000, 999999999).ToString();
             string pass = GetRandomPassword(rand.Next(4, 10)) + rand.Next(2, 6).ToString();
 
-            string path = @"D:\MyTest.txt";
+            string path = Directory.GetCurrentDirectory() + @"\MyTest.txt";
             using (FileStream fs = File.Create(path));
 
             driver.Url = "http://localhost/litecart/en/";

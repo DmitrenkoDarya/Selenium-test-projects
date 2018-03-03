@@ -36,13 +36,13 @@ namespace UnitTestProject1
         {
             int count_ducks = 0;
             Random rand = new Random();
-            string path = @"D:\MyTest.txt";
+            string path = Directory.GetCurrentDirectory() + @"\MyTest.txt";
             using (FileStream fs = File.Create(path));
             
             driver.Url = "http://localhost/litecart/en/";
 
             //количество уточек на стр
-            count_ducks = driver.FindElements(By.CssSelector(".content .link")).Count;
+            count_ducks = driver.FindElements(By.CssSelector(".sticker")).Count;
  
             for (int i = 0; i < count_ducks; i++)
             {
