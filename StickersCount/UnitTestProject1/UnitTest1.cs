@@ -36,19 +36,19 @@ namespace UnitTestProject1
         {
             int count_ducks = 0;
             Random rand = new Random();
-            string path = Directory.GetCurrentDirectory() + @"\MyTest.txt";
+            string path = TestContext.CurrentContext.TestDirectory + @"\MyTestReport.txt";
             using (FileStream fs = File.Create(path));
-            
+                       
             driver.Url = "http://localhost/litecart/en/";
 
             //количество уточек на стр
-            count_ducks = driver.FindElements(By.CssSelector(".sticker")).Count;
+            count_ducks = driver.FindElements(By.CssSelector(".product")).Count;
  
             for (int i = 0; i < count_ducks; i++)
             {
                 try
                 {
-                    if (driver.FindElements(By.CssSelector(".content .link"))[i].FindElements(By.CssSelector("[class^=sticker]")).Count == 1)
+                    if (driver.FindElements(By.CssSelector(".product"))[i].FindElements(By.CssSelector(".sticker")).Count == 1)
                         WriteIntoFile("У уточки №" + (i + 1).ToString() + " есть стикер\r\n", path);
                     else
                         WriteIntoFile("У уточки №" + (i + 1).ToString() + " НЕТ стикера\r\n", path);
