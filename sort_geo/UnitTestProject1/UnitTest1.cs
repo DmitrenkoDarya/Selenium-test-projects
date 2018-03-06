@@ -61,7 +61,7 @@ namespace UnitTestProject1
         [Test]
         public void FirstTest()
         {       
-            string path = Directory.GetCurrentDirectory() + @"\MyTest1.txt";
+            string path = TestContext.CurrentContext.TestDirectory + @"\MyTest1.txt";
 
             using (FileStream fs = File.Create(path));
 
@@ -143,7 +143,7 @@ namespace UnitTestProject1
         [Test]
         public void SecondTest()
         {
-            string path_2 = Directory.GetCurrentDirectory() + @"\MyTest2.txt";
+            string path_2 = TestContext.CurrentContext.TestDirectory + @"\MyTest2.txt";
 
             using (FileStream fs = File.Create(path_2));
 
