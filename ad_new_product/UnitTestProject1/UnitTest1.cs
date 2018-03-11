@@ -100,7 +100,8 @@ namespace UnitTestProject1
             driver.FindElement(By.Name("quantity")).SendKeys(rand.Next(10, 40).ToString());
             Thread.Sleep(rand.Next(800, 1000));
 
-            driver.FindElement(By.Name("new_images[]")).SendKeys(Directory.GetCurrentDirectory() + @"\duck.jpg");
+           // driver.FindElement(By.Name("new_images[]")).SendKeys(Directory.GetCurrentDirectory() + @"\duck.jpg");
+            driver.FindElement(By.Name("new_images[]")).SendKeys(TestContext.CurrentContext.WorkDirectory + @"\duck.jpg");
             Thread.Sleep(rand.Next(1800, 2000));
 
             //вкладка Информация
