@@ -10,25 +10,14 @@ using OpenQA.Selenium.Support.UI;
 
 namespace UnitTestProject1
 {
-    [TestFixture]
-    public class MyFirstTest
+    public class Browser
     {
-        public IWebDriver driver;
-        public WebDriverWait wait;
-
-        [SetUp]
-        public void start()
-        {
-            driver = new ChromeDriver();
-            wait = new WebDriverWait(driver, TimeSpan.FromSeconds(10));
-            //driver2 = new InternetExplorerDriver();
-            //wait2 = new WebDriverWait(driver1, TimeSpan.FromSeconds(10));
-            Random rand = new Random();            
-        }
+        public IWebDriver driver { set; get; }
+        public WebDriverWait wait { set; get; }
 
         //ф-ция дозаписи в файл
         public static void write_into_file(string text, string path)
-        { 
+        {
             using (StreamWriter outputFile = File.AppendText(path))
             {
                 outputFile.WriteLine(text);
@@ -37,7 +26,7 @@ namespace UnitTestProject1
         }
 
         //какой цвет?
-        public string What_color (string rgba)
+        public string What_color(string rgba)
         {
             string regular_red = @"(?<=\().*?(?=,)";
             string regular_green = @"(?<=,\ ).*?(?=,\ \d+,)";
@@ -135,7 +124,7 @@ namespace UnitTestProject1
             string sale_price_full = driver.FindElement(By.CssSelector(".campaign-price")).GetAttribute("textContent");
 
             if (sale_price_main == sale_price_full)
-                result = "Скидочная цена товара совпадает: " + sale_price_main ;
+                result = "Скидочная цена товара совпадает: " + sale_price_main;
             else
                 result = "Скидчная цена товара не совпадает: " + sale_price_main + " - " + sale_price_full;
 
@@ -192,7 +181,7 @@ namespace UnitTestProject1
                 strike_price = true;
             else
                 strike_price = false;
-            
+
             if (driver.FindElement(By.CssSelector(".campaign-price")).TagName == "b" || driver.FindElement(By.CssSelector(".campaign-price")).TagName == "strong")
                 strong_price = true;
             else
@@ -215,7 +204,22 @@ namespace UnitTestProject1
                 write_into_file("Шрифт обычной цены на странице товара не меньше, чем у скидочной", path);
             //write_into_file(clr_sale_price_main + " " + clr_price_main, path);
         }
-              
+    }
+    
+    [TestFixture]
+    public class Chrome : Browser
+    {
+        Chrome chrome_browser = new Chrome();
+
+        [SetUp]
+        public void start()
+        {
+            chrome_browser.driver = new ChromeDriver();
+            //driver = new InternetExplorerDriver();
+            chrome_browser.wait = new WebDriverWait(driver, TimeSpan.FromSeconds(10));
+            Random rand = new Random();            
+        } 
+            
         [Test]
         public void CHROME_Test()
         {
@@ -223,24 +227,27 @@ namespace UnitTestProject1
             using (FileStream fs = File.Create(path)) ;
 
             write_into_file("chrome", path);
-            compare_attr(driver, path);    
+            compare_attr(chrome_browser.driver, path);    
         }
 
         [TearDown]
         public void Stop()
         {
-            driver.Quit();
-            driver = null;
+            chrome_browser.driver.Quit();
+            chrome_browser.driver = null;
         }        
     }
 
-    public class MySecondTest : MyFirstTest
+    public class IE : Browser
     {
+        IE IE_driver = new IE();
+
         [SetUp]
-        new public void start()
+        public void start()
         {
-            driver = new InternetExplorerDriver();
-            wait = new WebDriverWait(driver, TimeSpan.FromSeconds(10));
+            //chrome_browser.driver = new ChromeDriver();
+            IE_driver.driver = new InternetExplorerDriver();
+            IE_driver.wait = new WebDriverWait(driver, TimeSpan.FromSeconds(10));
             Random rand = new Random();
         }
 
@@ -250,15 +257,15 @@ namespace UnitTestProject1
             string path = TestContext.CurrentContext.TestDirectory + @"\MyTest_IE.txt";
             using (FileStream fs = File.Create(path)) ;
 
-            write_into_file("IE", path);
-            compare_attr(driver, path);
+            write_into_file("chrome", path);
+            compare_attr(IE_driver.driver, path);
         }
 
         [TearDown]
-        new public void Stop()
+        public void Stop()
         {
-            driver.Quit();
-            driver = null;
-        } 
+            IE_driver.driver.Quit();
+            IE_driver.driver = null;
+        }
     }
 }
