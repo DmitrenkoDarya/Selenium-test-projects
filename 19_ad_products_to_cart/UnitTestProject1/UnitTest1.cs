@@ -12,7 +12,7 @@ namespace UnitTestProject1
     {
         protected IWebDriver driver;
         protected WebDriverWait wait;
-        public string path = Directory.GetCurrentDirectory() + @"\MyTest.txt";
+        public string path = TestContext.CurrentContext.TestDirectory + @"\MyTest.txt";
 
         public Page(IWebDriver driver)
         {
@@ -154,7 +154,7 @@ namespace UnitTestProject1
     public class TestBase
     {
         public Application app;
-        public string path = Directory.GetCurrentDirectory() + @"\MyTest.txt";
+        public string path = TestContext.CurrentContext.TestDirectory + @"\MyTest.txt";
 
         [SetUp]
         public void start()
