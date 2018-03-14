@@ -90,7 +90,7 @@ namespace UnitTestProject1
         {
             Random rand = new Random();
 
-            string path = Directory.GetCurrentDirectory() + @"\MyTest.txt";
+            string path = TestContext.CurrentContext.TestDirectory + @"\MyTest.txt";
             using (FileStream fs = File.Create(path));
 
             //добавление уток в корзину
