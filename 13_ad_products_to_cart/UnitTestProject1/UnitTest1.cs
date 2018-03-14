@@ -45,14 +45,14 @@ namespace UnitTestProject1
             string value_before = driver.FindElement(By.CssSelector(".quantity")).GetAttribute("textContent");
 
             driver.FindElement(By.Name("add_cart_product")).Click();
-            Thread.Sleep(rand.Next(1200, 1500));
+           
+            int k = 0;
 
-            string value_after = driver.FindElement(By.CssSelector(".quantity")).GetAttribute("textContent");
-
-            if (value_before != value_after)
-                write_into_file("Утка №" + (i + 1).ToString() + " добавлена в корзину.", path);
-            else
-                write_into_file("Утка №" + (i + 1).ToString() + " почему-то не добавлена в корзину. Наверное, она продана.", path);
+            while (value_before == driver.FindElement(By.CssSelector(".quantity")).GetAttribute("textContent") && k < 10)
+            {
+                Thread.Sleep(200);
+                k++;
+            }
         }
 
         private string Delete_from_cart(IWebDriver driver, string path)
